@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Developer</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial;
+    background:#0f0f0f;
+    color:white;
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 30px;
+    background:black;
+    position:sticky;
+    top:0;
+}
+
+nav h2{
+    color:cyan;
+}
+
+nav a{
+    color:white;
+    margin-left:15px;
+    text-decoration:none;
+}
+
+/* SLIDE */
+.swiper{
+    width:100%;
+    height:350px;
+}
+
+.swiper-slide{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    background:#222;
+}
+
+/* SECTION */
+.section{
+    padding:50px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#1a1a1a;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+    width:250px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+/* BUTTON */
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:cyan;
+    color:black;
+    border-radius:5px;
+    margin-top:10px;
+    text-decoration:none;
+}
+
+/* FOOTER */
+footer{
+    background:black;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>DK Dev</h2>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">Service</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<!-- SLIDE -->
+<div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">🔥 Welcome</div>
+        <div class="swiper-slide">💻 Developer</div>
+        <div class="swiper-slide">🚀 Build Website</div>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<div class="section">
+    <h1>Xin chào 👋</h1>
+    <p>Tôi là Developer cá nhân</p>
+    <a class="btn" href="#">Liên hệ</a>
+</div>
+
+<!-- SERVICES -->
+<div class="section">
+    <h2>Dịch vụ</h2>
+    <div class="cards">
+
+        <div class="card">
+            <h3>Web</h3>
+            <p>Làm website theo yêu cầu</p>
+        </div>
+
+        <div class="card">
+            <h3>Game</h3>
+            <p>Lập trình game cơ bản</p>
+        </
